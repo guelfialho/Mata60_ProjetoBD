@@ -3,6 +3,7 @@ const pool = require("./db");
 class StoredProcedures {
   async criar() {
     await this.criaProcedureProcessarVenda();
+    await this.criaProcedureAtualizarMaterializedViews();
   }
 
   async criaProcedureProcessarVenda() {
@@ -71,7 +72,7 @@ class StoredProcedures {
     console.log("Stored procedure sp_processar_venda criada com sucesso!");
   }
 
-  async criaProcedureProcessarVenda() {
+  async criaProcedureAtualizarMaterializedViews() {
     const query = `
     CREATE OR REPLACE PROCEDURE sp_atualizar_materialized_views()
     LANGUAGE plpgsql
