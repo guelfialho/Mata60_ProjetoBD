@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.js",
     "iniciaBanco": "docker-compose up -d",
-    "criaTabela": "node src/criaTabelas.js",
-    "popularBanco": "node src/popularBanco.js"
+    "criarTabelas": "node src/tabelas.js",
+    "popularBanco": "node src/migration.js",
+    "criarViews": "node src/views.js",
+    "criarMaterializedViews": "node src/materializedViews.js",
+    "criarStoredProcedures": "node src/storedProcedures.js"
   },
   "keywords": [],
   "author": "",
