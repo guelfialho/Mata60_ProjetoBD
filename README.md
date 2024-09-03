@@ -17,6 +17,8 @@ Para rodar o programa que gerencia a criação do banco de dados, criação das 
 
 ## :runner: Passos
 
+⚠️ Acesse a playlist com os vídeos de configuração e explicação do projeto: [Playlist](https://www.youtube.com/playlist?list=PLWrH5raphmmyffTlqCaH1RbREKuF6fdLc) 
+
 1. Fazer o download do ZIP do projeto.
 2. Descompactar os arquivos no local desejado.
 3. Abrir a pasta do projeto no VS Code;
